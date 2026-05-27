@@ -1,0 +1,14 @@
+{
+  "id": "star_shape",
+  "name": "星形図形MOD",
+  "version": "0.1.0",
+  "level": 1,
+  "enabled": true,
+  "description": "右ツールへ星ボタンを追加します。",
+  "scripts": [
+    "main.js"
+  ],
+  "styles": [
+    "style.css"
+  ]
+}
