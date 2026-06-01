@@ -835,11 +835,9 @@ function redraw() {
 
   drawMarqueeSelection();
 
-  // SVGオーバーレイが表示中ならSVGだけを表示する
-  if (_jeSvg) {
-    syncJeSvg();
-    clearCanvasForSvgOverlay();
-  }
+  // SVGオーバーレイ実行中は下のキャンバスだけ消す。
+  // SVGを作り直すとGSAPのターゲットが差し替わってアニメーションが止まる。
+  if (_jeSvg) clearCanvasForSvgOverlay();
 }
 
 function drawGhost(t, x1, y1, x2, y2) {
