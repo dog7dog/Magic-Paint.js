@@ -1,0 +1,13 @@
+.sample-ui-btn {
+  height: 32px;
+  padding: 0 12px;
+  border: 1px solid #444;
+  background: #1e1e1e;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sample-ui-btn:hover {
+  background: #2d2d2d;
+}
