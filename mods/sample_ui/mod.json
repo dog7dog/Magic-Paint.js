@@ -1,0 +1,15 @@
+{
+  "id": "sample_ui",
+  "name": "UI拡張サンプル",
+  "author": "Morgan",
+  "version": "1.0.0",
+  "level": 2,
+  "description": "UI拡張MODのサンプル",
+  "scripts": [
+    "main.js"
+  ],
+  "styles": [
+    "style.css"
+  ],
+  "enabled": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": "webgl_Tree.js",
+  "name": "Three.jsプレビューMOD",
+  "author": "Morgan",
+  "version": "0.3.2",
+  "level": 2,
+  "description": "画像レイヤーを追加し、現在のシーンをCanvasTextureとしてThree.jsのWebGLRendererでアプリ内再生・単体JS書き出しします。",
+  "scripts": [
+    "main.js"
+  ],
+  "styles": [
+    "style.css"
+  ],
+  "enabled": true
+}

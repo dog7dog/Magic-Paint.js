@@ -1,0 +1,20 @@
+.mod-ui-block[data-mod-ui="webgl_preview_top"] {
+  display: inline-flex;
+  align-items: center;
+}
+
+.mod-ui-block[data-mod-ui="webgl_preview_top"] .mod-ui-body {
+  display: inline-flex;
+  align-items: center;
+}
+
+.webgl-preview-btn,
+.threejs-preview-btn {
+  gap: 5px;
+  border-color: rgba(59, 138, 230, .45);
+}
+
+.webgl-preview-btn .ti,
+.threejs-preview-btn .ti {
+  color: #70b7ff;
+}

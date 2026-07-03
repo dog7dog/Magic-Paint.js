@@ -1,0 +1,15 @@
+{
+  "id": "webgl_preview",
+  "name": "Three.jsプレビューMOD",
+  "author": "Morgan",
+  "version": "0.2.2",
+  "level": 2,
+  "description": "現在のシーンをCanvasTextureとしてThree.jsのWebGLRendererでアプリ内再生します。",
+  "scripts": [
+    "main.js"
+  ],
+  "styles": [
+    "style.css"
+  ],
+  "enabled": true
+}

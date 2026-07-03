@@ -1,0 +1,15 @@
+{
+  "id": "webgl_preview",
+  "name": "Three.jsプレビューMOD",
+  "author": "Morgan",
+  "version": "0.2.0",
+  "level": 2,
+  "description": "現在のシーンをThree.jsのWebGLRendererで別ウィンドウ再生します。",
+  "scripts": [
+    "main.js"
+  ],
+  "styles": [
+    "style.css"
+  ],
+  "enabled": true
+}
